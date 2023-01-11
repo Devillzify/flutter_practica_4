@@ -1,4 +1,3 @@
-import 'dart:ffi';
 
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -34,7 +33,7 @@ static bool get isDarkMode
 static set isDarkMode(bool value)
 {
 _isDarkMode = value;
-_prefs.setBool('nom', value);
+_prefs.setBool('darkmode', value);
 }
 
 
